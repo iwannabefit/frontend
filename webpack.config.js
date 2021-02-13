@@ -50,11 +50,11 @@ module.exports = {
         ],
       },
       {
-        test: /\.styl$/,
+        test: /\.scss$/,
         use: [
           { loader: MiniCssExtractPlugin.loader },
           'css-loader',
-          'stylus-loader',
+          'sass-loader',
         ],
       },
     ],
