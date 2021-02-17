@@ -20,7 +20,7 @@ This app helps you to accomplish your goals related to be fit and healthy, lose 
 
 ## Wireframes
 
-- [Figma](https://figma.com/)
+- [Figma](https://www.figma.com/file/WGgSaGJ2pbmmnS4nZuyuK2?embed_host=notion&kind=&node-id=1%3A323&viewer=1)
 
 
 ## Installing
