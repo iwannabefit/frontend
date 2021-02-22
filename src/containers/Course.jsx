@@ -41,8 +41,8 @@ const Course = () => {
             </section>
         </section>
        
-        <section class="Tutorials">
-            <div class="tutorials_container">
+        <section className="Tutorials">
+            <div className="tutorials_container">
                 
             </div>
         </section>
