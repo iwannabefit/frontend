@@ -1,0 +1,42 @@
+@import "../Vars.scss";
+
+
+.header{
+    width: 100%;
+}
+.header-container{
+    height: 70px;
+    background-color: $color-black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+.header_logo{    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.header_logo img {
+  
+    width: 70px;
+    height: 48px;
+}
+.header_userIcon{
+    grid-column-start: 12;
+    grid-column-end: 13;
+    display: flex;
+    justify-content: center;
+
+}
+.header_userIcon img{
+    width: 70px;
+    height: 70px;
+
+}
