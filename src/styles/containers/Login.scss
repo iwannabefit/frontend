@@ -3,14 +3,14 @@
 .main-login {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #6746ee, #b363a7);
+    background-image: linear-gradient(to bottom, $color-primary, $color-Secondary);
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
 .login{
-    border: 2px solid white;
+    border: 2px solid $white;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,10 @@
 .login__container{
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: $white;
     margin-top: 48px;
     margin-bottom: 42px;
+    font-family: $theme-font;
 }
 .login__container__from{
     display: flex;
@@ -34,7 +35,7 @@
 .login__container__form--input{
     width: 278px;
     height: 38px;
-    border: 1.5px solid white;
+    border: 1.5px solid $white;
     border-radius: 20px;
     padding: 0;
     text-align: center;
@@ -44,15 +45,15 @@
 }
 
 .login__container__form--input::placeholder{
-    color: rgba(255, 255, 255, .6);
+    color: $White-60;
 }
 .login__container__form--input:focus{
-    border: 1px solid #F8BD2C;
+    border: 1px solid $color-Third;
     outline: none;
 }
 .login__container__form--input:hover{
     cursor: pointer;
-    border: 1px solid #F8BD2C;
+    border: 1px solid $color-Third;
 }
 
 .login__container__form--btn{
@@ -60,14 +61,14 @@
     height: 38px;
     border: none;
     border-radius: 20px;
-    background-color: #F8BD2C ;
-    color: white;
+    background-color: $color-Third ;
+    color: $white;
     margin-bottom: 43px ;
 }
 
 .login__container__form--btn:hover{
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid $white;
 }
 
 .login__container__RF{
@@ -77,22 +78,25 @@
 
 .login__container__RF--ForgotPass a{
     text-decoration: none;
-    color: white;
+    color: $white;
+    font-family: $theme-font;
+
 }
 
 
 .login__container__RF--remember-me label{
-    color: white;
+    color: $white;
+    font-family: $theme-font;
 }
 .login__container__RF--remember-me label:hover{
     cursor: pointer;
-    color: #F8BD2C;
+    color: $color-Third;
 }
 
 
 .login__container__RF--ForgotPass a:hover{
     cursor: pointer;
-    color: #F8BD2C;
+    color: $color-Third;
 }
 
 
@@ -103,10 +107,12 @@
     display: flex;
     margin-bottom: 14px;
     text-decoration: none;
+    font-family: $theme-font;
+
 }
 .login__container_login-SM__Twiiter p{
     margin-left: 8px;
-    color: white;
+    color: $white;
 }
 
 .login__container_login-SM__Twiiter--icon{
@@ -121,10 +127,11 @@
 .login__container_login-SM__google{
     display: flex;
     text-decoration: none;
+    font-family: $theme-font;
 }
 .login__container_login-SM__google p{
     margin-left: 8px;
-    color: white;
+    color: $white;
 }
 .login__container_login-SM__google--icon{
     width: 17px;
@@ -136,16 +143,17 @@
 }
 .login__container__register{
     margin-top: 45px;
-    color: white;
+    color: $white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: $theme-font;
 }
 .login__container__register a{
     text-decoration: none;
-    color: white;
+    color: $white;
 }
 .login__container__register a:hover{
     text-decoration: none;
-    color: #F8BD2C;
+    color: $color-Third;
 }

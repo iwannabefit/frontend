@@ -43,7 +43,9 @@
 }
 .program__desciption--title{
     font-size: 30px;
-    color: #F8BD2C;
+    color: $color-Third;
+    font-family: $theme-font;
+    font-weight: 600;
 }
 .program__desciption--Icons{
     width: 200px;
@@ -57,23 +59,24 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     column-gap: 20px;
+    font-family: $theme-font;
 }
 .program__desciption--info--time{
     grid-column-start: 1;
     grid-column-end: 2;
-    color: #F8BD2C;
+    color: $color-Third;
     font-size: 16px;
 }
 .program__desciption--info--coach{
     grid-column-start: 2;
     grid-column-end: 3;
-    color: #F8BD2C;
+    color: $color-Third;
     font-size: 16px;
 }
 .program__desciption--info--equipament{
     grid-column-start: 3;
     grid-column-end: 5;
-    color: #F8BD2C;
+    color: $color-Third;
     font-size: 16px;
 }
 
@@ -84,9 +87,12 @@
     grid-row-end: 4;
     margin-top: 30px;
     height: 113px;
+    font-family: $theme-font;
+    color: $white;
+    font-weight: 400;
 }
-.program__desciption--description p{
-    color: white;
+.program__desciption--title p{
+    color: $white;
     font-size: 14px;
 }
 
