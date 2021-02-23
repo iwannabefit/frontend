@@ -27,7 +27,7 @@ const Course = () => {
                 <div className="program__desciption--info">
                     <p className="program__desciption--info--time" >Time</p>
                     <p className="program__desciption--info--coach">Instructor</p>
-                    <p className="program__desciption--info--equipament">Equipament: None</p>
+                    <p className="program__desciption--info--equipament">Equipament:None</p>
                 </div>
                 <div className="program__desciption--description">
                     <p>
@@ -48,7 +48,7 @@ const Course = () => {
         </section>
       </main>
 
-      <Footer></Footer>
+      <Footer/>
       <Link to="/">Go home</Link>
     </>
   );
