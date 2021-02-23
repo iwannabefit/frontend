@@ -1,0 +1,126 @@
+@import "../Vars.scss";
+
+.main-signIn {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, $color-primary, $color-Secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signIn{
+    border: 2px solid $white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 540px;
+    width: 353px;
+  }
+  .signIn--title{
+    text-align: center;
+    font-size: 30px;
+    color: $white;
+    margin-top: 48px;
+    margin-bottom: 42px;
+    font-family: $theme-font;
+  }
+.signIn__formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+}
+.signIn__formContainer--inputs{
+    width: 278px;
+    height: 38px;
+    border: 1.5px solid $white;
+    border-radius: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 28px;
+}
+.signIn__formContainer--inputs::placeholder{
+    color: $White-60;
+}
+.signIn__formContainer--inputs:hover{
+    cursor: pointer;
+    border: 1px solid $color-Third;
+}
+.signIn__formContainer--inputs:focus{
+    border: 1px solid $color-Third;
+    outline: none;
+}
+.signIn__formContainer--btn{
+    width: 278px;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    background-color: $color-Third ;
+    color: $white;
+}
+.signIn__formContainer--btn:hover{
+    cursor: pointer;
+    border: 1px solid $white;
+}
+.signIn__formContainer__SM {
+    margin-top: 23px;
+
+}
+.signIn__formContainer__SM__twitter{
+    display: flex;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-family: $theme-font;   display: flex;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-family: $theme-font;
+
+}
+.signIn__formContainer__SM__twitter p{
+    margin-left: 8px;
+    color: $white;
+}
+.signIn__formContainer__SM__twitter--icon{ 
+    width: 17px;
+    height: 17px;
+
+}
+.signIn__formContainer__SM__twitter--icon img{
+    width: 17px;
+    height: 17px;
+}
+.signIn__formContainer__SM__google{
+    display: flex;
+    text-decoration: none;
+    font-family: $theme-font;
+}
+
+.signIn__formContainer__SM__google p{
+        margin-left: 8px;
+         color: $white;
+}
+
+.signIn__formContainer__SM__google--icon{
+    width: 17px;
+    height: 17px;
+}
+.signIn__formContainer__SM__google--icon img{
+    width: 17px;
+    height: 17px;
+}
+.signIn__Login{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $theme-font;
+    color: $white;
+}
+.signIn__Login--a{
+    text-decoration: none;
+    color: $white;
+}
