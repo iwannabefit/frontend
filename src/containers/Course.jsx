@@ -48,7 +48,7 @@ const Course = () => {
         </section>
       </main>
 
-      <Footer></Footer>
+      <Footer/>
       <Link to="/">Go home</Link>
     </>
   );
