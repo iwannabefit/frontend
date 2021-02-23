@@ -9,6 +9,7 @@ import Home from '../containers/Home';
 import Usser from '../containers/Usser';
 import Course from '../containers/Course';
 import Login from '../containers/Login';
+import SignIn from '../containers/SignIn';
 
 const App = () => (
   <Layout>
@@ -17,6 +18,7 @@ const App = () => (
       <Usser path="/usser" />
       <Course path="/course" />
       <Login path="/login" />
+      <SignIn path="/signIn"/>
     </Router>
   </Layout>
 );
