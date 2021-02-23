@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div className="Card">
       <figure className="Card__icon">
-        <img src="" alt={props.tabIconName || 'Icon Name'} />
+        <img src={props.url} alt={props.tabIconName || 'Icon Name'} />
       </figure>
       <div className="Card__data">
         <p className="Card__category">{props.category || 'category'}</p>

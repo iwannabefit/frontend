@@ -19,7 +19,6 @@
     &__metrics {
       width: 1030px;
       height: 564px;
-      outline: 1px solid;
       background-color: $color-Black-Secondary;
     }
   }
@@ -38,7 +37,7 @@
       width: 32px;
       height: 32px;
       outline: 1px solid;
-      background-color: #757575;
+      // background-color: #757575;
     }
     &__section {
       font: 500 16px/24px 'Poppins';
@@ -63,7 +62,6 @@
     &__icon {
       width: 48px;
       height: 48px;
-      outline: 1px solid;
     }
     &__title {
       font: 600 16px/24px 'Poppins';
@@ -88,7 +86,6 @@
     width: 104.42px;
     font-family: 'Source Sans Pro', sans-serif;
     height: 104.42px;
-    outline: 1px solid;
     border-radius: 50%;
     display: flex;
     align-items: center;
