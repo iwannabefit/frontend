@@ -1,10 +1,14 @@
 import React from 'react';
-
+import './card.scss';
 const Card = (props) => {
   return (
-    <div className="Card">
-      <figure className="Card__icon">
-        <img src={props.url} alt={props.tabIconName || 'Icon Name'} />
+    <div className={`Card ${props.background}`}>
+      <figure id={props.id || 'iconbackground'} className="Card__icon ">
+        <img
+          className={props.n}
+          src={props.url}
+          alt={props.tabIconName || 'Icon Name'}
+        />
       </figure>
       <div className="Card__data">
         <p className="Card__category">{props.category || 'category'}</p>
