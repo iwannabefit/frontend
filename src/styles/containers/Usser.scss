@@ -1,0 +1,135 @@
+@import '../Vars.scss';
+
+@media screen and (min-width: 1440px) {
+  .muscleColor {
+    fill: red;
+  }
+
+  .Usser {
+    display: flex;
+    grid-gap: 21px;
+    width: 100vw;
+    &__menu {
+      background-color: $color-Black-Secondary;
+      border-radius: 25px;
+      display: grid;
+      align-content: start;
+      justify-content: right;
+      padding-top: 70px;
+      height: 767px;
+      width: 359px;
+      outline: 1px solid;
+    }
+    &__metrics {
+      width: 1030px;
+      height: 564px;
+      background-color: $color-Black-Secondary;
+    }
+    &__item {
+      display: flex;
+      grid-gap: 36px;
+      padding: 18px 50px;
+      align-items: center;
+
+      width: 317px;
+      height: 67px;
+      font-family: $theme-font;
+      &:hover {
+        background: linear-gradient(90deg, #6746ee 0%, #b363a7 100%);
+        border-radius: 20px 0px 0px 20px;
+      }
+    }
+    &__img {
+      width: 32px;
+      height: 32px;
+      // background-color: #757575;
+    }
+    &__section {
+      font: 500 16px/24px 'Poppins';
+      color: #757575;
+      &:hover {
+        color: white;
+      }
+    }
+    &__Cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 19px;
+    }
+  }
+  .Calendar {
+    margin-top: 97px;
+    width: 245px;
+    height: 96px;
+    border-radius: 20px;
+    display: flex;
+    grid-gap: 22px;
+    background: #0b2a97;
+    color: #fff;
+    padding: 24px 20px;
+    &__icon {
+      width: 48px;
+      height: 48px;
+    }
+    &__title {
+      font: 600 16px/24px 'Poppins';
+    }
+  }
+  .Usser__metrics {
+    display: grid;
+    color: #fff;
+    padding: 0 35px;
+    padding-top: 38px;
+    align-content: start;
+    border-radius: 25px;
+    margin-top: 55px;
+  }
+  .Usser__Profile {
+    display: flex;
+    grid-gap: 42px;
+    align-items: center;
+  }
+
+  .Usser__icon {
+    width: 104.42px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 104.42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Metric__profile {
+    font: 600 36px/54px Poppins;
+  }
+  .Card {
+    display: flex;
+    grid-gap: 30px;
+    width: 307.53px;
+    height: 132.88px;
+    border-radius: 25px;
+    padding: 30px 34px;
+    background: linear-gradient(180deg, #6746ee 0%, #b363a7 100%);
+    margin-top: 31px;
+    &__icon {
+      width: 72.57px;
+      height: 70.4px;
+      outline: 1px solid;
+      border-radius: 25px;
+      align-items: center;
+      display: flex;
+      font-size: 9pt;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__data {
+      font: 600 28px/42px Poppins;
+    }
+    &__category {
+      font: 400 14px/21px Poppins;
+      opacity: 0.7;
+      text-transform: capitalize;
+    }
+  }
+}
