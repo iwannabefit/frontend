@@ -10,7 +10,7 @@
     grid-gap: 21px;
     width: 100vw;
     &__menu {
-      background-color: $color-Black-Secondary;
+      background-color: $color-black;
       border-radius: 25px;
       display: grid;
       align-content: start;
@@ -23,7 +23,7 @@
     &__metrics {
       width: 1030px;
       height: 564px;
-      background-color: $color-Black-Secondary;
+      background-color: $color-black;
     }
     &__item {
       display: flex;
