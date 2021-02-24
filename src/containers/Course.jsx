@@ -39,21 +39,13 @@ const Course = () => {
 
           <section className="weeks"></section>
         </section>
-<<<<<<< HEAD
-       
-        <section className="Tutorials">
-            <div className="tutorials_container">
-                
-            </div>
-=======
 
-        <section class="Tutorials">
-          <div class="tutorials_container"></div>
->>>>>>> UsserContainer
+        <section className="Tutorials">
+          <div className="tutorials_container"></div>
         </section>
       </main>
 
-      <Footer/>
+      <Footer />
       <Link to="/">Go home</Link>
     </>
   );

@@ -1,59 +1,53 @@
-@import "../Vars.scss";
+@import '../Vars.scss';
 
-
-
-.footer{
-    background-color: $color-black;
-
+.footer {
+  background-color: $color-black;
 }
 
-
-.footer__container{
-    margin-top: 59px;
-    height: 150px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 20px;
-    padding-left: 30px;
-    padding-right: 30px;  
-
+.footer__container {
+  margin-top: 59px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.footer__container--logo{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer__container--logo {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer__container--logo img{
-    width: 104px;
-    height: 72px;
+.footer__container--logo img {
+  width: 104px;
+  height: 72px;
 }
 
-.footer__container--PM{
-    grid-column-start: 6;
-    grid-column-end: 8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: $theme-font;
+.footer__container--PM {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $theme-font;
 }
 .footer__container--PM p {
-    color: white;
-    font-family: 20px;
+  color: white;
+  font-family: 20px;
 }
-.footer__container--Team{
-    grid-column-start: 11;
-    grid-column-end: 13;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: $theme-font;
+.footer__container--Team {
+  grid-column-start: 11;
+  grid-column-end: 13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $theme-font;
 }
-.footer__container--Team p{
-    color: white;
-    font-family: 20px;
-
+.footer__container--Team p {
+  color: white;
+  font-family: 20px;
 }
