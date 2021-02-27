@@ -1,14 +1,17 @@
 @import "../Vars.scss";
 
-
+*{
+    font-family: $theme-font;
+}
 .Main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     column-gap: 20px;
-    height: auto;
+    height: 100%;
     padding-left: 30px;
     padding-right: 30px;
     background-color: $color-Black-Primary;
+    
 }
 .program{
     grid-column-start: 1;
@@ -30,6 +33,7 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3,auto);
     column-gap: 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -86,7 +90,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
     margin-top: 30px;
-    height: 113px;
+    height: auto;
     font-family: $theme-font;
     color: $white;
     font-weight: 400;
@@ -95,6 +99,90 @@
     color: $white;
     font-size: 14px;
 }
+
+.weeks__container{
+    // background-color: steelblue;
+
+}
+
+
+.weeks__container__week1{
+    background-image: $Linear-Gradient-3-V;
+    padding-top: 17px;
+    border-radius: 20px;
+
+}
+
+.weeks__container__titles{
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+column-gap: 20px;
+height: 30px;
+}
+
+
+.weeks__container-week1__titles--title{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: $white;
+    font-size: 30px;
+    font-weight: 600;    
+}
+
+.weeks__container-week1__titles__episodes{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color:  $White-60;
+    
+}
+
+.weeks__container-week1__videosContainer{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weeks__container-week1__videosContainer__card{
+    background-image: url(../../assets/static//imgRef.jpg); 
+    object-fit: cover;
+    width: 203px;
+    height: 230px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 19px;
+    margin-bottom: 33px;
+    margin-left: 20px;
+}
+
+.weeks__container-week1__videosContaine__card-container{
+    margin-left: 16px;
+    font-size: 10px;
+ 
+}
+.weeks__container-week1__videosContaine__card-container--title{
+    color: $white;
+}
+.weeks__container-week1__videosContaine__card-container--time{
+    color: $White-60;
+}
+
+
+
+
+
+
 
 
 
