@@ -38,6 +38,10 @@
         background: linear-gradient(90deg, #6746ee 0%, #b363a7 100%);
         border-radius: 20px 0px 0px 20px;
       }
+      &:hover * {
+        color: white;
+        fill: white;
+      }
     }
     &__img {
       width: 32px;
