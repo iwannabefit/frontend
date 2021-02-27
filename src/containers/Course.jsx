@@ -34,11 +34,117 @@ const Course = () => {
             </div>
           </div>
 
-          <section className="weeks"></section>
+        <section className="weeks__container">
+          <div className="weeks__container__week1">
+
+            <div className="weeks__container__titles">
+              <p className="weeks__container-week1__titles--title">
+                  Week 1
+                </p>
+                <div className="weeks__container-week1__titles__episodes">
+                  <p className="weeks__container-week1__titles__episodes--tx">
+                    7 Episodes
+                  </p>
+                  <figure className="weeks__container-week1__titles__episodes--img">
+                    <img src="" alt=""/>
+                  </figure>
+                </div>
+            </div>
+
+             
+            <div className="weeks__container-week1__videosContainer">
+              <div className="weeks__container-week1__videosContainer__card">
+                <div className="weeks__container-week1__videosContaine__card-container">
+                  <p className="weeks__container-week1__videosContaine__card-container--title">
+                    nombre de la clase
+                  </p>
+                  <p className="weeks__container-week1__videosContaine__card-container--time">
+                    04:20 min.
+                  </p>
+                </div>
+                
+              </div>
+
+              <div className="weeks__container-week1__videosContainer__card">
+                <div className="weeks__container-week1__videosContaine__card-container">
+                  <p className="weeks__container-week1__videosContaine__card-container--title">
+                    nombre de la clase
+                  </p>
+                  <p className="weeks__container-week1__videosContaine__card-container--time">
+                    04:20 min.
+                  </p>
+                </div>
+                
+              </div>
+
+              <div className="weeks__container-week1__videosContainer__card">
+                <div className="weeks__container-week1__videosContaine__card-container">
+                  <p className="weeks__container-week1__videosContaine__card-container--title">
+                    nombre de la clase
+                  </p>
+                  <p className="weeks__container-week1__videosContaine__card-container--time">
+                    04:20 min.
+                  </p>
+                </div>
+                
+              </div>
+
+
+              <div className="weeks__container-week1__videosContainer__card">
+                <div className="weeks__container-week1__videosContaine__card-container">
+                  <p className="weeks__container-week1__videosContaine__card-container--title">
+                    nombre de la clase
+                  </p>
+                  <p className="weeks__container-week1__videosContaine__card-container--time">
+                    04:20 min.
+                  </p>
+                </div>
+                
+              </div>
+
+
+              <div className="weeks__container-week1__videosContainer__card">
+                <div className="weeks__container-week1__videosContaine__card-container">
+                  <p className="weeks__container-week1__videosContaine__card-container--title">
+                    nombre de la clase
+                  </p>
+                  <p className="weeks__container-week1__videosContaine__card-container--time">
+                    04:20 min.
+                  </p>
+                </div>
+                
+              </div>
+
+
+              <div className="weeks__container-week1__videosContainer__card">
+                <div className="weeks__container-week1__videosContaine__card-container">
+                  <p className="weeks__container-week1__videosContaine__card-container--title">
+                    nombre de la clase
+                  </p>
+                  <p className="weeks__container-week1__videosContaine__card-container--time">
+                    04:20 min.
+                  </p>
+                </div>
+                
+              </div>
+
+
+             
+
+            </div>
+          </div>
+
+          <div className="weeks__container__week_">
+
+          </div>
+
+        </section>
         </section>
 
         <section className="Tutorials">
-          <div className="tutorials_container"></div>
+          <div className="tutorials_container">
+
+          </div>
         </section>
       </main>
       <Link to="/">Go home</Link>
