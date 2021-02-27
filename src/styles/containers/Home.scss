@@ -1,0 +1,71 @@
+@import '../Vars.scss';
+
+@media screen and (min-width: 1440px) {
+  .Home {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(200px, 1fr));
+    justify-content: stretch;
+    margin: 40px 30px;
+    color: white;
+    outline: 1px solid;
+    grid-gap: 60px;
+  }
+  .hero {
+    height: 820px;
+    margin: 40px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 1129.56px;
+    margin: 0 110px;
+    align-content: center;
+  }
+  .slider {
+    height: 421.4px;
+  }
+  .copy {
+    align-self: center;
+  }
+  .copy h1 {
+    font: 800 81px/120% Poppins;
+    margin: 22px 0;
+  }
+
+  .copy > p {
+    /*! width: ; */
+    width: 406.3px;
+    font-size: 15.5px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 130&;
+    margin: 22px 0;
+    align-self: center;
+  }
+  .copy p {
+    display: flex;
+    width: 303.84px;
+    justify-content: space-between;
+    font: 500 14px / 120% Poppins;
+  }
+  .copy > button:nth-child(4) {
+    width: 187.5px;
+    height: 50.29px;
+    background: linear-gradient(90deg, #6746ee 0%, #b363a7 100%);
+    border-radius: 20px;
+    border: unset;
+    color: white;
+    font: 600 20px / 120% Poppins;
+  }
+
+  .Layout__categories {
+    background: gray;
+    opacity: 0.4;
+  }
+  .Layout__populars {
+    background: gray;
+    opacity: 0.4;
+  }
+  .slider {
+    background: gray;
+    opacity: 0.4;
+  }
+}

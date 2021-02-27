@@ -1,42 +1,51 @@
-@import "../Vars.scss";
+@import '../Vars.scss';
 
-
-.header{
-    width: 100%;
+.link {
+  font-size: 23px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: 700;
+  text-transform: capitalize;
+  align-self: center;
+  grid-column-start: -3;
+  background: linear-gradient(90deg, #6746ee 0%, #b363a7 100%);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
-.header-container{
-    height: 70px;
-    background-color: $color-black;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 20px;
-    padding-left: 30px;
-    padding-right: 30px;  
+.header {
+  width: 100%;
+}
+.header-container {
+  height: 70px;
+  background-color: $color-black;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 52px;
 }
 
-.header_logo{    
-    grid-column-start: 1;
-    grid-column-end: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
+.header_logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header_logo img {
-  
-    width: 70px;
-    height: 48px;
+  width: 70px;
+  height: 48px;
 }
-.header_userIcon{
-    grid-column-start: 12;
-    grid-column-end: 13;
-    display: flex;
-    justify-content: center;
-
+.header_userIcon {
+  grid-column-start: 12;
+  grid-column-end: 13;
+  display: flex;
+  justify-content: center;
 }
-.header_userIcon img{
-    width: 70px;
-    height: 70px;
-
+.header_userIcon img {
+  width: 70px;
+  height: 70px;
 }
