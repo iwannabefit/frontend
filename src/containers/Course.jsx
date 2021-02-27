@@ -1,14 +1,11 @@
 import React from 'react';
 import { Link } from '@reach/router';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import '../styles/containers/Course.scss';
+import Layout from './Layout';
 
 const Course = () => {
   return (
-    <>
-      <Header></Header>
-
+    <Layout>
       <main className="Main">
         <section className="program">
           <div className="program__videoplayer"></div>
@@ -44,10 +41,8 @@ const Course = () => {
           <div className="tutorials_container"></div>
         </section>
       </main>
-
-      <Footer />
       <Link to="/">Go home</Link>
-    </>
+    </Layout>
   );
 };
 

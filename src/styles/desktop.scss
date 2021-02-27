@@ -1,5 +1,10 @@
 @media screen and (min-width: 1440px) {
+  body {
+    background-color: black;
+  }
   #app {
     background-color: #000;
+    width: 100vw;
+    height: 100vh;
   }
 }
