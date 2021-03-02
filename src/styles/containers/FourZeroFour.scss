@@ -1,0 +1,54 @@
+@import "../Vars.scss";
+
+
+
+.FZFmain{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, $color-primary, $color-Secondary); 
+}
+
+.FZFmain__titleContainer{
+ 
+}
+.FZFmain__titleContainer--tile{
+    color: $white;
+    font-size: 86px;
+    font-weight: 600;
+    margin-left: 147px;
+}
+
+.FZFmain__Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FZFmain__Container--img{
+    width: 378px;
+    height: 357px;  
+}
+.FZFmain__Container--img img{
+    width: 378px;
+    height: 357px;  
+}
+.FZFmain__Container__FZF{
+    font-size: 110px;
+    font-weight: 600;
+    color: $white;
+    margin-top: -29px;
+}
+
+.FZFmain__Container__CB{
+    font-weight: 600;
+    font-size: 75px;
+    color: $white;
+    margin-top: -40px;
+}
+.FZFmain__Container__txt{
+    color: $white;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -9px;
+}
