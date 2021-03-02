@@ -3,23 +3,32 @@
 @media screen and (min-width: 1440px) {
   .Home {
     display: grid;
-    grid-template-rows: repeat(3, minmax(200px, 1fr));
-    justify-content: stretch;
+    justify-items: center;
     margin: 40px 30px;
     color: white;
-    outline: 1px solid;
-    grid-gap: 60px;
   }
+  .Hero,
+  .Categories,
+  .Populars {
+    // margin: 0 110px;
+    padding: 0 110px;
+  }
+
   .hero {
     height: 820px;
     display: grid;
+    grid-gap: 140px;
+    grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
-    min-width: 1129.56px;
-    margin: 0 110px;
+
     align-content: center;
+    justify-items: center;
+    margin-bottom: 60px;
+    padding: 0 110px;
   }
   .slider {
-    height: 421.4px;
+    width: 630.02px;
+    height: 508.61px;
   }
   .copy {
     align-self: center;
@@ -29,21 +38,30 @@
     margin: 22px 0;
   }
 
-  .copy > p {
-    /*! width: ; */
-    width: 406.3px;
-    font-size: 15.5px;
-    font-family: Poppins;
-    font-weight: 500;
-    line-height: 130&;
-    margin: 22px 0;
-    align-self: center;
+  // .copy > p {
+  //   /*! width: ; */
+  //   width: 406.3px;
+  //   font-size: 15.5px;
+  //   font-family: Poppins;
+  //   font-weight: 500;
+  //   line-height: 130&;
+  //   margin: 22px 0;
+  //   align-self: center;
+  // }
+  .copy small {
+    margin: 28px 0;
   }
-  .copy p {
+  .copy svg {
+    margin: 0 7px;
+  }
+  .copy p,
+  small {
     display: flex;
-    width: 303.84px;
     justify-content: space-between;
-    font: 500 14px / 120% Poppins;
+    width: 420px;
+    font: 400 16px / 24px Poppins;
+    color: white;
+    opacity: 0.8;
   }
   .copy > button:nth-child(4) {
     width: 187.5px;
@@ -54,17 +72,56 @@
     color: white;
     font: 600 20px / 120% Poppins;
   }
-
-  .Layout__categories {
-    background: gray;
-    opacity: 0.4;
+  .Categories {
+    &__List {
+      grid-template-columns: repeat(4, 292px);
+      grid-auto-rows: minmax(140px, auto);
+      display: grid;
+      grid-gap: 18px;
+      justify-content: space-between;
+    }
+    &__title {
+      color: white;
+      font: 600 35px/52px Poppins;
+      width: 526.56px;
+      margin-bottom: 60px;
+    }
+    &__filter {
+      min-width: 270.11px;
+      min-height: 140.8px;
+      background-color: white;
+      background: linear-gradient(90deg, #6746ee 0%, #b363a7 100%);
+      border-radius: 20px;
+    }
   }
-  .Layout__populars {
-    background: gray;
-    opacity: 0.4;
+
+  .Populars {
+    background-color: #141414;
+    padding-top: 55px;
+    padding-bottom: 110px;
+    &__title {
+      font: 600 35px/52px Poppins;
+    }
+    &__List {
+      display: grid;
+      grid-auto-rows: minmax(188px, auto);
+      grid-template-columns: repeat(3, 368px);
+
+      grid-gap: 60px;
+    }
+    &__card {
+      border-radius: 20px;
+      background-color: white;
+    }
   }
   .slider {
     background: gray;
     opacity: 0.4;
+  }
+  .--principal {
+    height: 270.77px;
+  }
+  .--span2 {
+    grid-column: span 2;
   }
 }
