@@ -10,6 +10,7 @@ import Usser from '../containers/Usser';
 import Course from '../containers/Course';
 import Login from '../containers/Login';
 import SignIn from '../containers/SignIn';
+import FourZeroFour from '../containers/FourZeroFour'
 
 const App = () => (
   <Router>
@@ -18,6 +19,8 @@ const App = () => (
     <Course path="/course" />
     <Login path="/login" />
     <SignIn path="/signIn" />
+    <FourZeroFour path="/FZF" />
+
   </Router>
 );
 
